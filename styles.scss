@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+
+$mobile-breakpoint: 480px;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+ 
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Quattrocento', serif;
+        overflow-x: hidden;
+
+
+        section{
+            position:relative;
+            width:100%;
+            height: 100vh;
+            background-attachment:fixed;
+            background-size:cover;
+            background-position:center;
+            background-blend-mode:screen;
+            background-image: url(./assets/pinkhouse.jpeg);
+            border:none;
+            
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                display: flex;
+                width:100%;
+                overflow: hidden;
+               
+            }
+                .title{
+                font-family: 'Quattrocento', serif;
+                font-weight: 500;
+                position:absolute;
+                top:30%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                font-size:50px;
+                color:#fff;
+                width:100%;
+                text-align:center;
+                
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 32px;
+                }
+            }
+            
+                .presentation{
+                font-family: 'Quattrocento', serif;
+                font-weight: 300;
+                position:absolute;
+                top:40%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                font-size:25px;
+                color:#fff;
+                width:70%;
+                text-align:center;
+                font-size: 22px;
+                    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 16px;
+                }
+            }
+        }
+        
+        
+        .wrapper1{
+            width:100%;
+            padding-left: 5em;
+            display:flex;
+            border:none;
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+               display: flex;
+               flex-direction: column;
+            }
+       
+            .styles1{
+                width: 300px;
+                height: 600px;
+                background-color:pink;
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:250px;
+                    height: 300px;
+                }
+    
+             
+                .photo1{
+                    background: url('./assets/1.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none;    
+                }
+    
+            }
+            .description1{
+                color:#FFF;
+                font-size: 22px;
+                height:200px;
+                width: 400px;
+                line-height: 1.5em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 300px;
+                    height: 600px;
+                    padding-right: 2em;
+                    line-height: 0.9em;
+                }
+    
+            }
+         
+        }
+          
+        .wrapper2{
+            padding-right: 10em;        
+            display:flex;
+            justify-content: flex-end;
+            width: 100%;
+            border:none;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                margin-left: 1em;  
+            }
+    
+            .description2{
+                color:#FFF;
+                font-size: 22px;
+                height:500px;
+                width: 400px;
+                margin-left:1em;
+                line-height: 1.5em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 150px;
+                    height: 600px;
+                    line-height: 0.9em;
+                    margin-left:0em;
+                    text-align: right;
+                    padding-right: 0.5em;
+                }
+            }
+            .styles2{
+                width: 800px;
+                height: 500px;
+                background-color:pink;
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:400px;
+                    height: 350px;
+                }
+                
+                .photo2{
+                    background: url('./assets/2.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+                 }
+            }
+        }
+    
+        .wrapper3{
+            padding-left: 5em;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:400px;
+                height:350px; 
+                display: flex;
+                flex-direction: column;
+            }
+            .styles3{
+                width: 400px;
+                height: 300px;
+                background-color:pink;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:250px;
+                    height: 300px;
+                }
+                
+            .photo3{
+                background: url('./assets/3.jpg');
+                background-size: cover;  
+                width:100%;
+                height: 100%; 
+                border:none;
+                outline: none; 
+            }
+        }
+            .description3{
+                color:#FFF;
+                font-size: 22px;
+                width: 400px;
+                height: 300px;
+                margin-top:1em;
+                line-height: 1.5em;
+
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    height: 600px;
+                    margin-top:0px;
+                    line-height: 0.9em;
+                    width:280px;
+                    padding-right: 2em;
+                    line-height: 0.9em;
+                }
+            }
+    
+        }
+        .wrapper4{
+            display:flex;
+            flex-direction: column;
+            justify-content: right;
+            padding-left: 15em;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:400px;
+                height:350px;
+                margin-left: 1em;  
+                padding-right:4em;
+                padding-left: 0em;
+                display: flex;
+                justify-content: center;
+            }
+            .styles4{
+                height: 550px;
+                width: 470px;
+                background-color:pink;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:250px;
+                    height: 300px;
+                }
+            .photo4{
+                background: url('./assets/4.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+        }
+            .description4{
+                color:#FFF;
+                font-size: 22px;
+                width: 470px;
+                height: 100%;
+                line-height: 1.5em;
+                
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 256px;
+                    height: 300px;
+                    align-items: center;
+                    padding-top: 6em;
+                    line-height: 0.9em;
+                }
+            }
+    
+    
+        }
+    
+        .wrapper5{
+            padding-top:5em;
+            padding-left:2em;
+            display:flex;
+            justify-content: left;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                margin-left: 0em;  
+            }
+            .description5{
+                color:#FFF;
+                font-size: 22px;
+                width: 470px;
+                height: 100%;
+                margin-left: 1em;
+                line-height: 1.5em;
+
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 150px;
+                    height: 600px;
+                    line-height: 0.9em;
+                    padding-left: 0.5em;
+                    margin-left: 0em;
+                }
+            }
+    
+            .styles5{
+                height: 300px;
+                width: 270px;
+                background-color:pink;
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:150px;
+                    height: 300px;
+                }
+            .photo5{
+                background: url('./assets/5.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+        }
+            
+        }
+    
+        .wrapper6{
+            padding-left: 30em;
+            display:flex;
+            justify-content: left;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                margin-left: 1em; 
+                padding-left: 0em;
+                flex-direction: column;
+                margin-right: 1em;
+    
+            }
+    
+            .description6{
+                color:#FFF;
+                font-size: 22px;
+                height: 350px;
+                width: 600px;
+                margin-left: 1em;
+                line-height: 1.5em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 170px;
+                    height: 100px;
+                    margin:0;
+                    line-height: 0.9em;
+                    padding-top: 0.5em;
+                }
+            }
+    
+            .styles6{
+                height: 350px;
+                width: 600px;
+                background-color:pink;
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:150px;
+                    height: 300px;
+    
+                }
+            .photo6{
+                background: url('./assets/blue3.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+            }
+    
+        }
+    
+    
+        .wrapper7{
+            padding-left: 11em;
+            display:flex;
+            justify-content: left;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                margin-left: 1em; 
+                padding-left: 0em; 
+            }
+            .description7{
+                color:#FFF;
+                font-size: 22px;
+                height: 200px;
+                width: 500px;
+                margin-left: 1em;
+                line-height: 1.5em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 150px;
+                    height: 600px;
+                    padding-right: 1em;
+                    line-height: 0.9em;
+                    margin-left: 0em;
+                    padding-left: 0.5em;
+                }
+            }
+    
+            .styles7{
+                height: 600px;
+                width: 300px;
+                background-color:pink;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:200px;
+                    height: 200px;
+
+                }
+            .photo7{
+                    background: url('./assets/blue2.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+            }
+    
+        }
+            
+    
+        .wrapper8{
+            padding-left: 25em;
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                margin-right: 1em;
+                padding-left: 4em;
+                padding-right: 1em;
+            }
+            .description8{
+                color:#FFF;
+                font-size: 22px;
+                height: 200px;
+                width: 500px;
+                padding-bottom: 1em;
+                line-height: 1.5em;
+                
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 300px;
+                    height: 600px;
+                    line-height: 0.9em;
+                    padding-bottom: 0.5em;
+                    
+                }
+            }
+    
+            .styles8{
+                height: 300px;
+                width: 500px;
+                background-color:pink;
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:300px;
+                    height: 200px;
+                    
+                }
+            .photo8{
+                    background: url('./assets/blue8.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+            }
+    
+        }
+    
+    
+        .wrapper9{
+            padding-left: 11em;
+            display:flex;
+            flex-direction: column;
+            width: 100%;
+    
+            @media screen and (max-width: $mobile-breakpoint ) {
+                width:500px;
+                height:100px;
+                padding-left: 0em;
+                margin-right: 1em;
+                margin-left: 1em;
+    
+            }
+            .description9{
+                color:#FFF;
+                font-size: 22px;
+                height: 200px;
+                width: 500px;
+                padding-bottom: 1em;
+                line-height: 1.5em;
+              
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    font-size: 18px;
+                    width: 300px;
+                    height: 600px;
+                    line-height: 0.9em;
+                    padding-bottom: 0.5em;
+                    
+                }
+            }
+    
+            .styles9{
+                height: 500px;
+                width: 450px;
+                background-color:pink;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                    width:350px;
+                    height: 350px;
+                }
+            .photo9{
+                    background: url('./assets/azul.jpg');
+                    background-size: cover;  
+                    width:100%;
+                    height: 100%; 
+                    border:none;
+                    outline: none; 
+            }
+            }
+    
+        }
+    
+    
+    
+        .artist-wrapper{
+            width: 100%;
+            background: url(./assets/artistbg.jpg);
+            color:#FFF;
+            font-size: 22px;
+            height: 100%;
+            background-attachment:fixed;
+            background-size:cover;
+            background-position:center;
+            background-blend-mode:screen;
+            display: flex;
+            justify-content: center;
+
+            @media screen and (max-width: $mobile-breakpoint ) {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 16px;
+
+            
+            }
+    
+            .artistph{
+                height: 300px;
+                width: 300px;
+                margin-top: 4em;
+                margin-left:4em;
+                margin-bottom: 4em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                width:200px;
+                height:200px;
+                margin-left: 6em;
+    
+                }
+    
+                .artistphoto{
+                    background: url(./assets/ricardopicture.jpg);
+                    width: 100%;
+                    height: 100%;
+                    background-size: cover;
+                }
+            }
+            .main-text-artist{
+                flex-direction: column;
+                width: 400px;
+                margin-top: 4em;
+    
+                @media screen and (max-width: $mobile-breakpoint ) {
+                text-align: center;
+                line-height: 0.9em;
+                }
+                
+                .name{
+                    width: 400px;
+                    margin-left: 1em;
+                    font-size: 30px;
+                    font-weight: bold;
+    
+    
+                    @media screen and (max-width: $mobile-breakpoint ) {
+                        margin-left: 0;
+                    }
+    
+                   
+                }
+                .artist-description{
+                    margin-top:1em;
+                    width: 400px;
+                    margin-left: 0.8em;
+                    font-size: 22px;
+                    line-height: 1.5em;
+    
+                    @media screen and (max-width: $mobile-breakpoint ) {
+                    padding: 2em;
+                    margin-left:0em;
+                    margin-top: 0em;
+                    line-height: 1em;
+                    font-size: 20px;
+                    }
+                }
+            }    
+    }
+    
+   
+    }
+
+
+
+
+
+    
