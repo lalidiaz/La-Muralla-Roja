@@ -36,7 +36,6 @@ $mobile-breakpoint: 480px;
                 display: flex;
                 width:100%;
                 overflow: hidden;
-               
             }
                 .title{
                 font-family: 'Quattrocento', serif;
@@ -90,7 +89,6 @@ $mobile-breakpoint: 480px;
             .styles1{
                 width: 300px;
                 height: 600px;
-                background-color:pink;
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:250px;
                     height: 300px;
@@ -163,7 +161,6 @@ $mobile-breakpoint: 480px;
             .styles2{
                 width: 800px;
                 height: 500px;
-                background-color:pink;
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:400px;
                     height: 350px;
@@ -196,7 +193,6 @@ $mobile-breakpoint: 480px;
             .styles3{
                 width: 400px;
                 height: 300px;
-                background-color:pink;
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:250px;
@@ -251,7 +247,6 @@ $mobile-breakpoint: 480px;
             .styles4{
                 height: 550px;
                 width: 470px;
-                background-color:pink;
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:250px;
@@ -321,7 +316,6 @@ $mobile-breakpoint: 480px;
             .styles5{
                 height: 300px;
                 width: 270px;
-                background-color:pink;
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:150px;
                     height: 300px;
@@ -375,7 +369,7 @@ $mobile-breakpoint: 480px;
             .styles6{
                 height: 350px;
                 width: 600px;
-                background-color:pink;
+
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:150px;
                     height: 300px;
@@ -428,7 +422,7 @@ $mobile-breakpoint: 480px;
             .styles7{
                 height: 600px;
                 width: 300px;
-                background-color:pink;
+
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:200px;
@@ -482,7 +476,7 @@ $mobile-breakpoint: 480px;
             .styles8{
                 height: 300px;
                 width: 500px;
-                background-color:pink;
+                
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:300px;
                     height: 200px;
@@ -536,7 +530,6 @@ $mobile-breakpoint: 480px;
             .styles9{
                 height: 500px;
                 width: 450px;
-                background-color:pink;
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     width:350px;

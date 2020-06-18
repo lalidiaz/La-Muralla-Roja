@@ -83,7 +83,6 @@ body .wrapper1 {
 body .wrapper1 .styles1 {
   width: 300px;
   height: 600px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper1 .styles1 {
@@ -154,7 +153,6 @@ body .wrapper2 .description2 {
 body .wrapper2 .styles2 {
   width: 800px;
   height: 500px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper2 .styles2 {
@@ -188,7 +186,6 @@ body .wrapper3 {
 body .wrapper3 .styles3 {
   width: 400px;
   height: 300px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper3 .styles3 {
@@ -244,7 +241,6 @@ body .wrapper4 {
 body .wrapper4 .styles4 {
   height: 550px;
   width: 470px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper4 .styles4 {
@@ -313,7 +309,6 @@ body .wrapper5 .description5 {
 body .wrapper5 .styles5 {
   height: 300px;
   width: 270px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper5 .styles5 {
@@ -366,7 +361,6 @@ body .wrapper6 .description6 {
 body .wrapper6 .styles6 {
   height: 350px;
   width: 600px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper6 .styles6 {
@@ -418,7 +412,6 @@ body .wrapper7 .description7 {
 body .wrapper7 .styles7 {
   height: 600px;
   width: 300px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper7 .styles7 {
@@ -468,7 +461,6 @@ body .wrapper8 .description8 {
 body .wrapper8 .styles8 {
   height: 300px;
   width: 500px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper8 .styles8 {
@@ -518,7 +510,6 @@ body .wrapper9 .description9 {
 body .wrapper9 .styles9 {
   height: 500px;
   width: 450px;
-  background-color: pink;
 }
 @media screen and (max-width: 480px) {
   body .wrapper9 .styles9 {
