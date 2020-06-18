@@ -83,8 +83,8 @@ $mobile-breakpoint: 480px;
             @media screen and (max-width: $mobile-breakpoint ) {
                 width:500px;
                 height:100px;
-               display: flex;
-               flex-direction: column;
+                display: flex;
+                flex-direction: column;
             }
        
             .styles1{
@@ -113,6 +113,7 @@ $mobile-breakpoint: 480px;
                 height:200px;
                 width: 400px;
                 line-height: 1.5em;
+                padding-left: 1em;
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     font-size: 18px;
@@ -120,6 +121,7 @@ $mobile-breakpoint: 480px;
                     height: 600px;
                     padding-right: 2em;
                     line-height: 0.9em;
+                    padding-top: 0.5em;
                 }
     
             }
@@ -146,6 +148,7 @@ $mobile-breakpoint: 480px;
                 width: 400px;
                 margin-left:1em;
                 line-height: 1.5em;
+                padding-left: 1em;
     
                 @media screen and (max-width: $mobile-breakpoint ) {
                     font-size: 18px;
@@ -269,6 +272,7 @@ $mobile-breakpoint: 480px;
                 width: 470px;
                 height: 100%;
                 line-height: 1.5em;
+                padding-bottom: 1em;
                 
     
                 @media screen and (max-width: $mobile-breakpoint ) {
@@ -460,7 +464,6 @@ $mobile-breakpoint: 480px;
             .description8{
                 color:#FFF;
                 font-size: 22px;
-                height: 200px;
                 width: 500px;
                 padding-bottom: 1em;
                 line-height: 1.5em;
@@ -515,7 +518,6 @@ $mobile-breakpoint: 480px;
             .description9{
                 color:#FFF;
                 font-size: 22px;
-                height: 200px;
                 width: 500px;
                 padding-bottom: 1em;
                 line-height: 1.5em;
